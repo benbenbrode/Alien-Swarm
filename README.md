@@ -11,10 +11,11 @@
 게임 규칙 : 
 게임이 시작되면 외계인이 주기적으로 스폰되어 플레이어를 추격합니다.
 외계인은 시간이 지날수록 점점 빠르게 스폰됩니다.
+플레이어는 총과 3가지 스킬을 사용할 수 있습니다.
 플레이어의 채력이 0이 되면 게임 오버입니다.
 맵에 존재하는 외계인 수가 200마리에 도달하면 게임 오버됩니다.
 게임 시작 후 8분이 지나면 보스가 등잡합니다.
-보스를 처치하면 게임ㅇ 클리어입니다.
+보스를 처치하면 게임 클리어입니다.
 ---
 
 개발 목적 : 직접 3D TPS게임을 구현해보고 다른 장르의 요소(뱀파이어 서바이벌, 랜덤디펜스)를 결합하여 나만의 게임을 만들어보기 위해
@@ -816,6 +817,8 @@ case MonsterState.trace:
 #06) 드래그 앤 드롭으로 상점 구현
 <details>
 <summary>예시 코드</summary>
+
+  
 ```csharp
   
 using PlayFab.ClientModels;
@@ -1093,10 +1096,14 @@ public class DragAndDropMgr : MonoBehaviour
 </details>
 
 
-#06) 몬스터를 자동으로 공격하는 터렛 구현
+#07) 몬스터를 자동으로 공격하는 터렛 구현
 <details>
 <summary>예시 코드</summary>
+
+  
 ```csharp
+
+
 using UnityEngine;
 
 public class Turret : MonoBehaviour
@@ -1183,5 +1190,8 @@ public class Turret : MonoBehaviour
 }
 
 ```
+
 ![Alien Swarm 2024-11-11 15-19-18 (3)](https://github.com/user-attachments/assets/a3705a06-b26c-4872-ad22-44cb4d552179)
+
+
 </details>
