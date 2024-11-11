@@ -24,7 +24,7 @@
 사용 엔진 : UNITY 2022.3.15f1
 ---
 
-시연 영상 : https://studio.youtube.com/video/9D2GhdmX0Jw/edit
+시연 영상 : [https://studio.youtube.com/video/9D2GhdmX0Jw/edit](https://www.youtube.com/watch?v=9D2GhdmX0Jw)
 ---
 
 주요 활용 기술
