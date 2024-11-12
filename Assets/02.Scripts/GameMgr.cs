@@ -314,7 +314,7 @@ public class GameMgr : MonoBehaviour
 
     private void OnDataSaveFailure(PlayFabError error)
     {
-        Debug.LogError("Failed to save data to PlayFab: " + error.GenerateErrorReport());
+        //Debug.LogError("Failed to save data to PlayFab: " + error.GenerateErrorReport());
     }
 
     public void SpawnCoin(Vector3 a_Pos)

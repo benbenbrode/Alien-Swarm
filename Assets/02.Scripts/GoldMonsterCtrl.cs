@@ -106,6 +106,13 @@ public class GoldMonsterCtrl : MonoBehaviour
         if (playerTr.gameObject.activeSelf == false)
             playerTr = GameObject.FindWithTag("Player").GetComponent<Transform>();
 
+        if (transform.position.y < -2)
+        {
+            Vector3 correctedPosition = transform.position;
+            correctedPosition.y = 0;
+            transform.position = correctedPosition;
+        }
+
         CheckMonStateUpdate();
         MonActionUpdate();
     }
